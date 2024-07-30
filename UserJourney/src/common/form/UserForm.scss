@@ -1,0 +1,30 @@
+.form-title {
+    margin-bottom: 32px;
+
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.form-input {
+    height: 40px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 1.4rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+        font-size: inherit;
+        font-weight: inherit;
+        padding: 1rem 3rem;
+        color: #fff;
+    }
+}
+
+.spinner-border {
+    --bs-spinner-border-width: 0.1em !important
+}

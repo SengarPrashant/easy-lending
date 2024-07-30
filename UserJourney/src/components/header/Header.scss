@@ -1,0 +1,21 @@
+@import "../../App.scss";
+
+$header-color: #e7e7e7;
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background: $natwest-theme;
+
+    h1 {
+        font-weight: 200;
+        font-size: 4rem;
+        color: $header-color;
+    }
+}

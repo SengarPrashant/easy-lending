@@ -1,0 +1,43 @@
+.app-card-main {
+    height: 180px;
+    width: 350px;
+    text-align: left;
+}
+
+.status-indicator1 {
+    width: fit-content;
+    padding: 0 12px;
+    height: 24px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+
+    span {
+        margin-top: 3px;
+        font-weight: 600;
+    }
+}
+
+.btn-view-doc {
+    background: #2eca6a;
+    color: #fff;
+
+    &:hover {
+        background: #229950;
+        color: #fff;
+    }
+}
+
+.btn-close-modal {
+    border: 1px solid #a5a5a5;
+    color: #838383;
+
+    &:hover {
+        background: #bdbdbd;
+        color: #fff;
+    }
+}

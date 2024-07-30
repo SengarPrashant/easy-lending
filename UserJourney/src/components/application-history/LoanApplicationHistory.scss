@@ -1,0 +1,56 @@
+.history-title {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 3px;
+}
+
+.history-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.info-lbl {
+    font-weight: 500;
+}
+
+.data-grid {
+    display: flex;
+    gap: 160px;
+    padding: 0 20px;
+
+    .info-box {
+        margin-bottom: 20px;
+
+        .status-indicator {
+            width: fit-content;
+            padding: 0 12px;
+            height: 24px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #fff;
+
+            span {
+                margin-top: 3px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.application-history-page-title {
+    margin-top: 90px;
+}
+
+.info-box-remarks {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: papayawhip;
+}

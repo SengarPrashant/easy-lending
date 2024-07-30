@@ -1,0 +1,66 @@
+[
+    {
+        "success": true,
+        "data": {
+            "arn": "1000392938",
+            "userId": "string",
+            "status": "approved",
+            "remarks": "Your latest loan application has been approved. Please make sure to submit all further documents for successful processing of your loan.",
+            "completedSteps": [
+                "string"
+            ],
+            "pendingSteps": [
+                "string"
+            ]
+        },
+        "message": "string"
+    },
+    {
+        "success": true,
+        "data": {
+            "arn": "1042392112",
+            "userId": "string",
+            "status": "pending",
+            "remarks": "Your latest loan application is under review. We'll inform you once the status is updated.",
+            "completedSteps": [
+                "string"
+            ],
+            "pendingSteps": [
+                "string"
+            ]
+        },
+        "message": "string"
+    },
+    {
+        "success": true,
+        "data": {
+            "arn": "1800988820",
+            "userId": "string",
+            "status": "rejected",
+            "remarks": "Your latest loan application has been rejected. Please make sure to submit all further documents for successful processing of your loan. Some gibberish to test long text. Some gibberish to test long text. Some gibberish to test long text. Some gibberish to test long text. Some gibberish to test long text. Some gibberish to test long text. ",
+            "completedSteps": [
+                "string"
+            ],
+            "pendingSteps": [
+                "string"
+            ]
+        },
+        "message": "string"
+    },
+    {
+        "success": true,
+        "data": {
+            "arn": "1999800070",
+            "userId": "string",
+            "status": "pending",
+            "remarks": "Your latest loan application has been partially approved. We're working on it",
+            "completedSteps": [
+                "string"
+            ],
+            "pendingSteps": [
+                "string"
+            ]
+        },
+        "message": "string"
+    }
+]
